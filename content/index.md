@@ -10,6 +10,14 @@ Auto Timesheet is a free, and open source CLI application for automating the mai
 Clocked in.
 > auto-timesheet clockout
 Clocked out. You have worked 3 hours, 15 minutes
+> auto-timesheet report
+Thursday (3 hours, 0 minutes):
+09:00-12:00 (3 hours, 0 minutes)
+Friday (4 hours, 0 minutes):
+08:00-12:00 (4 hours, 0 minutes)
+Saturday (0 hours, 0 minutes):
+13:00-16:15 (3 hours, 15 minutes)
+Total work completed: 10 hours, 15 minutes
 ```
 
 The application is backed by an SQLite database. When you clock in, it doesn't start a timer; it **simply creates an entry in the database**. This means you don't need to keep the application open, and you can safely reboot without losing any information.
