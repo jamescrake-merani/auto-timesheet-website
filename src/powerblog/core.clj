@@ -14,9 +14,11 @@
     [:header
      [:nav
       [:ul
-       [:li [:strong "Auto Timesheet"]]]]]
+       [:li [:strong "Auto Timesheet"]]
+       [:li "Installation"]
+       [:li "Documentation"]]]]
     [:main
-     [:h1 "Hello World"]]]])
+     content]]])
 
 (defn render-page [context page]
   (layout "Placeholder" "Placeholder"))
