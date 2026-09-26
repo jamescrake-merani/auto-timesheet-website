@@ -1,4 +1,5 @@
-(ns powerblog.core)
+(ns powerblog.core
+  (:require [powerpack.markdown :as md]))
 
 (defn layout [title content]
   [:html
@@ -21,7 +22,7 @@
      content]]])
 
 (defn render-page [context page]
-  (layout "Placeholder" "Placeholder"))
+  (layout "Placeholder" (md/render-html (:page/body page))))
 
 (def config
   {:site/title "Auto Timesheet"
