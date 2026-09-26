@@ -34,7 +34,3 @@ brew install auto-timesheet
 ```
 
 Building from source should be fairly easy as well. You'll need Clojure, and a JVM with GraalVM native image. For more information, see the [README file](https://github.com/jamescrake-merani/auto-timesheet/blob/master/README.md) in the repo.
-
-## Technologies used
-
-Auto Timesheet is written in **Clojure**. It can be run under JVM, but the JVM's startup times are quite slow, so the application can also be compiled into a native image through **GraalVM.**
