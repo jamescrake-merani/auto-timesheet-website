@@ -24,7 +24,7 @@ The application is backed by an SQLite database. When you clock in, it doesn't s
 
 ## Installation
 
-Auto Timesheet is a Clojure application which can be compiled into a native image using GraalVM, which has minimal dependencies. It'll work fine across Windows, Mac, and Linux.
+Auto Timesheet is a Clojure application that can be compiled into a native image using GraalVM, which has minimal dependencies. It'll work fine across Windows, Mac, and Linux.
 
 Currently, its packaged in Brew, so if you have that installed on either Linux, or Mac, you can just run
 
