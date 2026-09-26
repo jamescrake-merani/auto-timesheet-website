@@ -10,7 +10,10 @@
     [:title title]
     [:link
      {:rel "stylesheet"
-      :href "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.cyan.min.css"}]]
+      :href "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.cyan.min.css"}]
+    [:link
+     {:rel "stylesheet"
+      :href "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.12.0/build/styles/default.min.css"}]]
    [:body
     [:header
      [:nav
@@ -19,7 +22,10 @@
        [:li "Installation"]
        [:li "Documentation"]]]]
     [:main
-     content]]])
+     content]]
+   [:script {:src "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.12.0/build/highlight.min.js"}]
+   [:script {:src "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.12.0/build/languages/shell.min.js"}]
+   [:script "hljs.highlightAll();"]])
 
 (defn render-page [context page]
   (layout "Placeholder" (md/render-html (:page/body page))))
