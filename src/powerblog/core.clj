@@ -9,11 +9,14 @@
     [:title title]
     [:link
      {:rel "stylesheet"
-      :href "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"}]]
+      :href "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.cyan.min.css"}]]
    [:body
-    [:nav
-     [:ul
-      [:li [:strong "Auto Timesheet"]]]]]])
+    [:header
+     [:nav
+      [:ul
+       [:li [:strong "Auto Timesheet"]]]]]
+    [:main
+     [:h1 "Hello World"]]]])
 
 (defn render-page [context page]
   (layout "Placeholder" "Placeholder"))
