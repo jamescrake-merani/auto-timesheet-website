@@ -28,7 +28,7 @@
    [:script "hljs.highlightAll();"]])
 
 (defn render-page [context page]
-  (layout "Placeholder" (md/render-html (:page/body page))))
+  (layout "Auto Timesheet" (md/render-html (:page/body page))))
 
 (def config
   {:site/title "Auto Timesheet"
