@@ -39,10 +39,10 @@ Building from source should be fairly easy as well. You'll need Clojure, and a J
 
 ## Using the program
 
-If you are new to using Auto Timesheet, your first port of call should be the CLI guide in the manual. This will walk you through the basics of clocking in, clocking out, and viewing your generated timesheet.
+If you are new to using Auto Timesheet, you should firstly read the [concepts page in the manual](/manual/concept). Then after that, read the [CLI guide](/manual/guide) which will walk you through the basics of clocking in, clocking out, and viewing your generated timesheet.
 
 Documentation for this program is generally split into three components
 
-- The manual, which includes instructions on how to use the program
+- [The manual](/manual/), which includes instructions on how to use the program
 - The help command (`auto-timesheet --help`) which is intended more as a reference for all the commands, and their arguments.
 - Docstrings present in the code itself.
