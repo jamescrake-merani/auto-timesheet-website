@@ -22,6 +22,8 @@ Total work completed: 10 hours, 15 minutes
 
 The application is backed by an SQLite database. When you clock in, it doesn't start a timer; it **simply creates an entry in the database**. This means you don't need to keep the application open, and you can safely reboot without losing any information.
 
+# Getting Started
+
 ## Installation
 
 Auto Timesheet is a Clojure application that can be compiled into a native image using GraalVM, which has minimal dependencies. It'll work fine across Windows, Mac, and Linux.
@@ -34,3 +36,13 @@ brew install auto-timesheet
 ```
 
 Building from source should be fairly easy as well. You'll need Clojure, and a JVM with GraalVM native image. For more information, see the [README file](https://github.com/jamescrake-merani/auto-timesheet/blob/master/README.md) in the repo.
+
+## Using the program
+
+If you are new to using Auto Timesheet, your first port of call should be the CLI guide in the manual. This will walk you through the basics of clocking in, clocking out, and viewing your generated timesheet.
+
+Documentation for this program is generally split into three components
+
+- The manual, which includes instructions on how to use the program
+- The help command (`auto-timesheet --help`) which is intended more as a reference for all the commands, and their arguments.
+- Docstrings present in the code itself.
