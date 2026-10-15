@@ -19,8 +19,7 @@
      [:nav
       [:ul
        [:li [:strong "Auto Timesheet"]]
-       [:li "Installation"]
-       [:li "Documentation"]]]]
+       [:li [:a {:href "/manual/"} "Manual"]]]]]
     [:main
      content]]
    [:script {:src "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.12.0/build/highlight.min.js"}]
